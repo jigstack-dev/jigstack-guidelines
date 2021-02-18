@@ -10,6 +10,8 @@ Jigstack's branch structure:
 
 PRs must provide explanatory titles as well as any important notes in the description.
 
+It's preffered to open a single PR regarding a Jira task.
+
 #### Good PRs
 
 - Title-> Bug fix: Missing component on home / Desc-> Update this-component.tsx to include missing parameter that was breaking component loading.
@@ -164,7 +166,7 @@ Additionally, once the main branch is in check, you can also create a release by
 
 - Contracts must be pausable.
 
-- Preferably, they should also be upgradable following proxy architecture (logic and data separation) from big projects such as Uniswap, Compound, Curves and YFI.
+- Preferably, they should also be upgradable following proxy architecture (or logic and data separation) from big projects such as Uniswap, Compound, Curves and YFI. Read [this](https://blog.trailofbits.com/2018/09/05/contract-upgrade-anti-patterns/) for further explanations on when to choose which.
 
 - Migrations are also acceptable, but not that sustainable in the long term, so we should keep it for punctual/short-term cases.
 
